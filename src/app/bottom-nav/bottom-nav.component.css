@@ -1,4 +1,20 @@
+/* the bottom navbar */
 .bottom-navigation {
-    background-color: red;
-    height: 50px;
+  bottom: 0;
+  position : fixed;
+  background: green;
+  width: 100%;
+  display: block;
 }
+
+.bottom-navigation a {
+  text-align: center;
+  display: inline-block;
+  color: rebeccapurple;
+  width: 20%;
+  font-size: 1em;
+  margin: 0;
+  margin-right: -5px;
+  padding: 1.25em 0;
+}
+
