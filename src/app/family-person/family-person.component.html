@@ -1,7 +1,7 @@
 <section class="family-person">
     <div class="image-container">
-        <img src="" alt="image">
+        <img [src]="avatarSource" alt="image">
     </div>
-    <h2 class="person-name">Miriam</h2>
-    <h3 class="family-role">Mother</h3>
+    <h2 class="person-name">{{person.name}}</h2>
+    <h3 class="family-role">{{person.role}}</h3>
 </section>
