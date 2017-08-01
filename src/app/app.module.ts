@@ -28,6 +28,7 @@ import { HomeComponent } from './home';
 import { AboutComponent } from './about';
 import { BottomNavComponent } from './bottom-nav';
 import { FamilyPersonComponent } from './family-person';
+import { FamilyTreeComponent } from './family-tree';
 import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 
@@ -58,7 +59,8 @@ type StoreType = {
     NoContentComponent,
     XLargeDirective,
     BottomNavComponent,
-    FamilyPersonComponent
+    FamilyPersonComponent,
+    FamilyTreeComponent
   ],
   /**
    * Import Angular's modules.
