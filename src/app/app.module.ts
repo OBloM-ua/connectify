@@ -27,6 +27,7 @@ import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
 import { AboutComponent } from './about';
 import { BottomNavComponent } from './bottom-nav';
+import { FamilyPersonComponent } from './family-person';
 import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 
@@ -56,7 +57,8 @@ type StoreType = {
     HomeComponent,
     NoContentComponent,
     XLargeDirective,
-    BottomNavComponent
+    BottomNavComponent,
+    FamilyPersonComponent
   ],
   /**
    * Import Angular's modules.

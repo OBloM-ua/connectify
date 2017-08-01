@@ -1,1 +1,4 @@
-/*styles for home content only*/
+.home-container {
+    border: 1px solid gray;
+    min-height: 500px;
+}
