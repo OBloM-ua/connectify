@@ -1,0 +1,89 @@
+.icon {
+    color: #e6e6e6;
+    font-size: 1.5em;
+    position: relative;
+    top: -2.333em;
+    margin: 0 0.417em;
+}
+
+/* person styles */
+
+
+
+.person-container, 
+.group-container {
+    position: relative;
+    display: inline-block;
+}
+
+.person-container {
+    margin-left: 25px;
+}
+
+.person-container:first-child {
+    margin-left: 0;
+}
+
+.person-container .horizontal-line {
+    height: 25px;
+    left: 23px;
+    top: -30px;
+}
+
+/* group styles */
+
+
+.group-container {
+    padding-top: 30px;
+}
+
+.group-container .vertical-line {
+    top: 0;
+}
+
+.group-container > .horizontal-line {
+    top: -100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -2px;
+}
+
+
+/* line styles */
+
+.con-line {
+    position: absolute;
+    background-color: #e6e6e6;    
+}
+
+.vertical-line {
+    height: 5px;
+    width: 100%;
+}
+
+.horizontal-line {
+    width: 5px;
+}
+
+.line-down {
+    width: 5px;
+    height: 100px;
+}
+
+/* level styles */
+
+.level {
+    margin-top: 80px;
+}
+
+.level:first-child {
+    margin-top: 0;
+}
+
+.level-0 .horizontal-line {
+    display: none;
+}
+
+.level-0 .person-container {
+    margin-left: 28px;
+}

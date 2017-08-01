@@ -1,6 +1,28 @@
 <section class="family-tree">
-    <family-person [person]="{ name: 'Anna', role: 'Mother', gender: 'f' }"></family-person>
-    <family-person [person]="{ name: 'Joseph', role: 'Father', gender: 'm' }"></family-person>
-    <family-person [person]="{ name: 'Lisa', role: 'Daughter', gender: 'f' }"></family-person>
-    <family-person [person]="{ name: 'Emmy', role: 'Daughter', gender: 'f' }"></family-person>
+    <div class="level level-0">
+        <div class="person-container">
+            <div class="con-line horizontal-line"></div>
+            <family-person [person]="{ name: 'Anna', role: 'Mother', gender: 'f' }"></family-person>
+            <i class="icon typcn typcn-heart"></i>
+            <family-person [person]="{ name: 'Joseph', role: 'Father', gender: 'm' }"></family-person>
+        </div>
+    </div>
+    <div class="level level-1">
+        <div class="group-container">
+            <div class="person-container">
+                <div class="con-line horizontal-line"></div>
+                <family-person [person]="{ name: 'Lisa', role: 'Daughter', gender: 'f' }"></family-person>
+            </div>
+            <div class="person-container">
+                <div class="con-line horizontal-line"></div>                
+                <family-person [person]="{ name: 'Emmy', role: 'Daughter', gender: 'f' }"></family-person>
+            </div>
+            <div class="person-container">
+                <div class="con-line horizontal-line"></div>                
+                <family-person [person]="{ name: 'John', role: 'Son', gender: 'm' }"></family-person>
+            </div>
+            <div class="con-line vertical-line"></div>
+            <div class="con-line horizontal-line"></div>            
+        </div>
+    </div>
 </section>
